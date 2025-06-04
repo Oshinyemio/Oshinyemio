@@ -28,7 +28,7 @@
 
 ### 📌 Featured Projects
 
-#### ✅ [Simple Expense Tracker](https://github.com/YOUR_USERNAME/simple-expense-tracker)
+#### ✅ [Simple Expense Tracker](https://github.com/oshinyemio/simple-expense-tracker)
 A fully serverless application that allows users to track and manage personal expenses.
 
 **Tech Used:**  
