@@ -60,7 +60,3 @@ An enhanced, multi-user version of the Simple Expense Tracker with real-world cl
 
 - [LinkedIn](https://linkedin.com/in/oshinyemio)
 - 📧 oshinyemio@gmail.com
-
----
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=oshinyemio&layout=compact)
