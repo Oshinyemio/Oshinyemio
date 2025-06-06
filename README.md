@@ -37,12 +37,12 @@ A fully serverless application that allows users to track and manage personal ex
 **Tech Used:**  
 `AWS Lambda` · `API Gateway` · `DynamoDB` · `S3` · `JavaScript`
 
-**Features:**
-- ➕ **Add Expense** via `AddExpenseFunction` (POST)  
-- 🔍 **Get Expenses** via `GetExpenseFunction` (GET)  
-- 📂 **DynamoDB Data Store** using `userId` as the partition key  
-- 💻 **Local Testing** with `TestExpense.html` (no deployment required)  
-- 🔧 **Serverless Architecture** for scalability & cost-efficiency  
+**Features:**  
+- Built using AWS services within the Free Tier.  
+- Lambda functions add and get data from DynamoDB tables.  
+- API Gateway provides POST and GET endpoints for expenses.  
+- DynamoDB table with `userId` and `timestamp` keys stores all records.  
+- Includes a local HTML page for testing without deployment.
 
 ---
 
@@ -52,22 +52,12 @@ A robust, multi-user serverless expense tracker with advanced cloud features and
 **Tech Used:**  
 `AWS Lambda` · `API Gateway` · `DynamoDB` · `S3` · `CloudFront` · `Amazon Cognito` · `IAM` · `Amazon QuickSight` · `JavaScript` · `Python`
 
-**Features:**
-- ![Amazon Cognito](https://img.shields.io/badge/Amazon%20Cognito-%23FF9900?style=for-the-badge&logo=amazon-cognito&logoColor=white) **Secure Multi-User Authentication**  
-- ![Amazon S3](https://img.shields.io/badge/Amazon%20S3-%23FF9900?style=for-the-badge&logo=amazon-s3&logoColor=white) **Receipt Upload & Storage**  
-- ![Amazon QuickSight](https://img.shields.io/badge/Amazon%20QuickSight-%23007ACC?style=for-the-badge&logo=amazon-quicksight&logoColor=white) **User-Level Analytics & Insights**  
-- ![Amazon CloudFront](https://img.shields.io/badge/Amazon%20CloudFront-%23FF9900?style=for-the-badge&logo=amazon-cloudfront&logoColor=white) **Optimized Global Delivery (CDN)**  
-- ![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-%23FF9900?style=for-the-badge&logo=aws-lambda&logoColor=white) **Serverless Functions for Business Logic**  
-- ![Amazon DynamoDB](https://img.shields.io/badge/Amazon%20DynamoDB-%234053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white) **NoSQL Data Persistence**  
-
----
-
-### 🏗️ Project Architecture
-
-The Advanced Expense Tracker follows a comprehensive serverless architecture, leveraging AWS-managed services for scalability, security, and cost-efficiency.
-
-![Advanced Expense Tracker Architecture](assets/advanced-architecture-diagram.png)
-
+**Features:**  
+- Contains all features from the Simple Expense Tracker.  
+- Secure multi-user login using Amazon Cognito.  
+- Upload and store receipt images in an S3 bucket.  
+- Host frontend assets via CloudFront for global delivery.  
+- Generate analytics dashboards with Amazon QuickSight.
 ---
 
 ## 📬 Contact
