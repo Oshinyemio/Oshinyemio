@@ -1,12 +1,8 @@
----
-
 ### Hi there, I'm Ope 👋
 
-[cite_start]**Cloud & Financial Systems Engineer** with a focus on building secure, scalable, serverless ecosystems on AWS[cite: 213, 220]. [cite_start]I specialize in bridging the gap between complex financial workflows and cloud-native infrastructure[cite: 146].
-
-* [cite_start]🔭 **Current Focus**: Scaling **Spenda**, a serverless financial analytics platform[cite: 85, 138].
-* [cite_start]🏗️ **Architectural Expertise**: Infrastructure as Code (Terraform), Serverless Backend Design (Lambda/API Gateway), and secure Multi-user Identity Management (Cognito)[cite: 31, 32, 94, 99].
-* [cite_start]🏦 **Domain Knowledge**: Financial data modeling, Plaid API integration, and business process automation[cite: 26, 28, 91].
+🌱 **Aspiring Cloud Support Specialist** with a passion for solving problems and building cloud-native projects using AWS.  
+🔧 Currently working on a **Serverless Expense Tracker** using AWS Lambda, API Gateway, DynamoDB, and more.  
+🚀 Open to opportunities in **Cloud Engineering**, **Support Roles**, and **Cybersecurity**.
 
 ---
 
@@ -15,33 +11,62 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazon-dynamodb&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![S3](https://img.shields.io/badge/S3-%23FF9900.svg?style=for-the-badge&logo=amazon-s3&logoColor=white)
+![Lambda](https://img.shields.io/badge/AWS%20Lambda-%23FF9900.svg?style=for-the-badge&logo=aws-lambda&logoColor=white)
+![CloudFront](https://img.shields.io/badge/CloudFront-%23FF9900.svg?style=for-the-badge&logo=amazon-cloudfront&logoColor=white)
 ![Cognito](https://img.shields.io/badge/Amazon%20Cognito-%23FF9900?style=for-the-badge&logo=amazon-cognito&logoColor=white)
+![QuickSight](https://img.shields.io/badge/QuickSight-%23007ACC?style=for-the-badge&logo=amazon-quicksight&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+🛡️ Also familiar with cybersecurity tools like **Wireshark**, **Nmap**, and **VirusTotal**.
 
 ---
 
 ### 📜 Certifications
-* [cite_start]🏅 **AWS Certified Cloud Practitioner** [cite: 63, 135]
-* [cite_start]🔐 **Google Cybersecurity Professional** [cite: 64, 136]
+- 🏅 **AWS Certified Cloud Practitioner**
+- 🔐 **Google Cybersecurity Certificate**
 
 ---
 
-### 📌 Featured Project: Spenda
-**[Spenda - Serverless Financial Analytics Platform](https://github.com/oshinyemio/advanced-expense-tracker)**
-[cite_start]*A secure, multi-user cloud ecosystem for automated wealth tracking and budget optimization[cite: 23, 87, 224].*
+### 📌 Featured Projects
 
-**Core Capabilities:**
-* [cite_start]**Automated Ingestion**: Real-time account synchronization via **Plaid API** integration[cite: 28, 91, 231].
-* [cite_start]**Financial Engineering**: Custom workflows for net worth aggregation, cash flow analysis, and budget allocation (e.g., $65/15/20$ model)[cite: 25, 27, 232].
-* [cite_start]**Serverless Architecture**: Built with AWS Lambda, API Gateway, and DynamoDB using **Single-Table Design** for high performance[cite: 31, 88, 96, 228].
-* [cite_start]**Enterprise Security**: Identity management with Amazon Cognito, including JWT-based auth, email verification, and MFA[cite: 94, 95, 227].
-* [cite_start]**Infrastructure as Code**: Fully automated environment provisioning using **Terraform**[cite: 32, 99, 226].
+#### ✅ [Simple Expense Tracker](https://github.com/oshinyemio/simple-expense-tracker)  
+A fully serverless application that allows users to track and manage personal expenses.
 
-> [cite_start]**Professional Note**: This repository showcases the **Infrastructure as Code (IaC)**, **API documentation**, and **architectural patterns** for the platform[cite: 215, 234]. [cite_start]Proprietary core business logic and frontend assets are maintained privately as the project moves toward commercial release[cite: 210, 235].
+**Tech Used:**  
+`AWS Lambda` · `API Gateway` · `DynamoDB` · `S3` · `JavaScript`
+
+**Features:**  
+- Built using AWS services within the Free Tier.  
+- Lambda functions add and get data from DynamoDB tables.  
+- API Gateway provides POST and GET endpoints for expenses.  
+- DynamoDB table with `userId` and `timestamp` keys stores all records.  
+- Includes a local HTML page for testing without deployment.
 
 ---
 
-### 📬 Contact
-**Ope Oshinyemi**
+#### 💎 [Advanced Expense Tracker](https://github.com/oshinyemio/advanced-expense-tracker)  
+A robust, multi-user serverless expense tracker with advanced cloud features and analytics.
+
+**Tech Used:**  
+`AWS Lambda` · `API Gateway` · `DynamoDB` · `S3` · `CloudFront` · `Amazon Cognito` · `IAM` · `Amazon QuickSight` · `JavaScript` · `Python`
+
+**Features:**  
+- Contains all features from the Simple Expense Tracker.  
+- Secure multi-user login using Amazon Cognito.  
+- Upload and store receipt images in an S3 bucket.  
+- Host frontend assets via CloudFront for global delivery.  
+- Generate analytics dashboards with Amazon QuickSight.
+---
+
+## 📬 Contact
+
+Ope – Aspiring Cloud Support Specialist  
 [LinkedIn](https://linkedin.com/in/oshinyemio) | [oshinyemio@gmail.com](mailto:oshinyemio@gmail.com)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
